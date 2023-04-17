@@ -1,0 +1,38 @@
+Angular Commands
+
+New Project created and file.js created
+
+
+Invoking js file from VS Command prompt 
+----------------------------------
+node file1.js 
+
+Installing typescript package globally
+----------------------------------------
+npm install -g typescript 
+
+
+
+Compile ts file
+--------------
+tsc myfile.ts
+
+if there is error like following , use cmd command first and then use the above command
+
+tsc : File C:\Users\UserName\AppData\Roaming\npm\tsc.ps1 cannot be loaded because running scripts is disabled on this 
+system. For more information, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.
+At line:1 char:1
++ tsc myfile.ts
++ ~~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+	
+	
+To generate tsconfig.json 
+---------------------------
+	tsc --init
+	
+	
+To generate package.json
+-----------------------
+npm init
